@@ -55,7 +55,6 @@ a {
 
 .hu-header .hu-logo img {
   width: 200px;
-  display: block;
 }
 
 .hu-header {
@@ -71,6 +70,7 @@ a {
 
 .hu-image img {
   width: 697px;
+  display: block;
 }
 
 .hu-introductory h1 {
@@ -84,7 +84,7 @@ a {
 
 .hu-introductory p {
   max-width: 509px;
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 1.1rem;
   margin-bottom: 30px;
 }
@@ -149,6 +149,10 @@ a {
     align-self: flex-start;
   }
 
+  .hu-header .hu-logo img {
+    width: 240px;
+  }
+
   .hu-info__container {
     flex-direction: column;
   }
@@ -175,11 +179,16 @@ a {
 @media (max-width: 700px) {
   main {
     background: url(images/bg-mobile.svg) top/100% no-repeat, var(--violet);
-    padding: 30px 20px;
+    padding: 50px 20px;
   }
 
   .huddle-landing-page {
     max-width: 595px;
+  }
+
+  .hu-header {
+    margin-top: 0px;
+    margin-bottom: 80px;
   }
 
   .hu-image img {
@@ -187,7 +196,7 @@ a {
   }
 
   .hu-image {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
 
   .hu-introductory {
@@ -200,11 +209,25 @@ a {
   }
 
   .hu-introductory p {
+    font-size: 1.96rem;
     margin-bottom: 50px;
   }
 
   .hu-introductory .button {
     padding: 15px 140px;
+  }
+
+  .hu-socials {
+    margin-top: 160px;
+  }
+}
+
+@media (max-width: 500px) {
+  .huddle-landing-page {
+    max-width: 450px;
+  }
+  .hu-image img {
+    width: 400px;
   }
 }
 
