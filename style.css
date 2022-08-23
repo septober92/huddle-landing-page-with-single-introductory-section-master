@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  /* Primary Colors */
+
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+
+  /* Typography */
+
+  --fonts-body: 'Open Sans';
+  --fonts-headings: 'Poppins';
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--fonts-body);
+  font-size: 16px;
+  color: #fff;
+}
+
+main {
+  min-height: 100vh;
+  padding: 40px 60px;
+  background: url(images/bg-desktop.svg) left no-repeat, var(--violet);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.huddle-landing-page {
+  width: 1280px;
+  margin: 0;
+}
+
+.hu-header .hu-logo {
+  justify-content: flex-end;
+}
+
+.hu-header .hu-logo img {
+  width: 200px;
+}
+
+.hu-header {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.hu-info__container {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hu-image img {
+  width: 697px;
+}
+
+.hu-introductory h1 {
+  max-width: 435px;
+  font-family: var(--fonts-headings);
+  font-size: 2.3rem;
+  line-height: 1.7;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.hu-introductory p {
+  max-width: 509px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.hu-introductory .button {
+  display: inline-block;
+  font-family: var(--fonts-headings);
+  font-size: 1.1rem;
+  border-radius: 40px;
+  padding: 15px 64px;
+  background-color: #fff;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+  color: var(--violet);
+}
+
+.hu-introductory .button:hover {
+  color: #fff;
+  background-color: var(--soft-magenta);
+}
+
+.hu-socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.hu-socials li a i {
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+}
+
+.hu-socials li a i:hover {
+  border: 1.5px solid var(--soft-magenta);
+  color: var(--soft-magenta);
+}
+
+footer {
+  padding: 5px 0;
+  font-family: var(--fonts-headings);
+  text-align: center;
+  color: #000;
+  font-size: 1rem;
+}
+
+footer a {
+  text-decoration: inherit;
+  color: var(--violet);
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: var(--soft-magenta);
+  text-decoration: underline;
+}
