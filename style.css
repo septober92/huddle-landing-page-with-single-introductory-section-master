@@ -26,10 +26,14 @@ html {
   color: #fff;
 }
 
+body {
+  background: url(images/bg-desktop.svg) left no-repeat, var(--violet);
+  background-size: contain;
+}
+
 main {
   min-height: 100vh;
   padding: 40px 80px;
-  background: url(images/bg-desktop.svg) left no-repeat, var(--violet);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +136,7 @@ a {
 }
 
 @media (max-width: 1200px) {
-  main {
+  body {
     background: url(images/bg-desktop.svg) center/220% no-repeat, var(--violet);
   }
 
@@ -177,8 +181,12 @@ a {
 }
 
 @media (max-width: 700px) {
-  main {
+  body {
     background: url(images/bg-mobile.svg) top/100% no-repeat, var(--violet);
+    background-size: contain;
+  }
+
+  main {
     padding: 50px 20px;
   }
 
@@ -223,6 +231,38 @@ a {
   }
 }
 
+@media (max-width: 600px) {
+  main {
+    padding: 30px;
+  }
+
+  .huddle-landing-page {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hu-image {
+    align-self: center;
+  }
+
+  .hu-image img {
+    width: 500px;
+  }
+
+  .hu-introductory h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+  }
+
+  .hu-introductory p {
+    font-size: 1.9rem;
+    margin-bottom: 50px;
+  }
+}
+
 /* Footer */
 
 footer {
@@ -235,7 +275,7 @@ footer {
 
 footer a {
   text-decoration: inherit;
-  color: var(--violet);
+  color: inherit;
   font-weight: 600;
 }
 
