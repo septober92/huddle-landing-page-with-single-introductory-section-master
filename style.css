@@ -228,8 +228,13 @@ a {
 } */
 
 @media (max-width: 700px) {
+  body {
+    background: url(images/bg-mobile.svg) top/100% no-repeat, var(--violet);
+    background-size: contain;
+  }
+
   main {
-    padding: 20px;
+    padding: 30px 20px;
   }
 
   .huddle-landing-page {
@@ -240,6 +245,11 @@ a {
     align-items: center;
   }
 
+  .hu-header {
+    margin-top: 0px;
+    margin-bottom: 70px;
+  }
+
   .hu-header .hu-logo img {
     width: 170px;
   }
@@ -247,10 +257,15 @@ a {
   .hu-image {
     align-self: center;
     margin-top: 20px;
+    margin-bottom: 70px;
   }
 
   .hu-image img {
     width: 400px;
+  }
+
+  .hu-introductory {
+    padding: 0;
   }
 
   .hu-introductory h1 {
@@ -262,6 +277,14 @@ a {
 
   .hu-introductory p {
     font-size: 1.33rem;
+  }
+
+  .hu-introductory .button {
+    padding: 15px 100px;
+  }
+
+  .hu-socials {
+    margin-top: 100px;
   }
 }
 
