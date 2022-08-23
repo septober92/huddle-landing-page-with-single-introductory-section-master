@@ -137,7 +137,7 @@ a {
 
 @media (max-width: 1200px) {
   body {
-    background: url(images/bg-desktop.svg) center/220% no-repeat, var(--violet);
+    background: url(images/bg-mobile.svg) top/100% no-repeat, var(--violet);
   }
 
   .huddle-landing-page {
