@@ -176,7 +176,7 @@ a {
   }
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   body {
     background: url(images/bg-mobile.svg) top/100% no-repeat, var(--violet);
     background-size: contain;
@@ -214,7 +214,7 @@ a {
   }
 
   .hu-introductory p {
-    font-size: 1.96rem;
+    font-size: 1.7rem;
     margin-bottom: 40px;
   }
 
@@ -225,9 +225,9 @@ a {
   .hu-socials {
     margin-top: 100px;
   }
-}
+} */
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   main {
     padding: 20px;
   }
