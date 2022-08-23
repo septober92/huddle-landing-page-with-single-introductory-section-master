@@ -55,6 +55,7 @@ a {
 
 .hu-header .hu-logo img {
   width: 200px;
+  display: block;
 }
 
 .hu-header {
@@ -129,6 +130,85 @@ a {
   border: 1.5px solid var(--soft-magenta);
   color: var(--soft-magenta);
 }
+
+@media (max-width: 1200px) {
+  main {
+    background: url(images/bg-desktop.svg) center/220% no-repeat, var(--violet);
+  }
+
+  .huddle-landing-page {
+    max-width: 697px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hu-header {
+    display: flex;
+    align-self: flex-start;
+  }
+
+  .hu-info__container {
+    flex-direction: column;
+  }
+
+  .hu-introductory {
+    padding: 0 100px;
+    text-align: center;
+  }
+
+  .hu-introductory h1,
+  .hu-introductory p {
+    max-width: 697px;
+  }
+
+  .hu-introductory p {
+    margin-bottom: 40px;
+  }
+
+  .hu-socials {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    background: url(images/bg-mobile.svg) top/100% no-repeat, var(--violet);
+    padding: 30px 20px;
+  }
+
+  .huddle-landing-page {
+    max-width: 595px;
+  }
+
+  .hu-image img {
+    width: 595px;
+  }
+
+  .hu-image {
+    margin-bottom: 100px;
+  }
+
+  .hu-introductory {
+    padding: 0;
+  }
+
+  .hu-introductory h1 {
+    font-size: 2.6rem;
+    padding: 0 33px;
+  }
+
+  .hu-introductory p {
+    margin-bottom: 50px;
+  }
+
+  .hu-introductory .button {
+    padding: 15px 140px;
+  }
+}
+
+/* Footer */
 
 footer {
   padding: 5px 0;
