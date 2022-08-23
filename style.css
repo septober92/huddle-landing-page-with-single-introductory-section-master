@@ -222,15 +222,6 @@ a {
   }
 }
 
-@media (max-width: 500px) {
-  .huddle-landing-page {
-    max-width: 450px;
-  }
-  .hu-image img {
-    width: 400px;
-  }
-}
-
 /* Footer */
 
 footer {
