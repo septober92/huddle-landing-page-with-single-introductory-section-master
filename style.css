@@ -153,10 +153,6 @@ a {
     align-self: flex-start;
   }
 
-  .hu-header .hu-logo img {
-    width: 240px;
-  }
-
   .hu-info__container {
     flex-direction: column;
   }
@@ -219,48 +215,53 @@ a {
 
   .hu-introductory p {
     font-size: 1.96rem;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   .hu-introductory .button {
-    padding: 15px 140px;
+    padding: 15px 100px;
   }
 
   .hu-socials {
-    margin-top: 160px;
+    margin-top: 100px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   main {
-    padding: 30px;
+    padding: 20px;
   }
 
   .huddle-landing-page {
-    max-width: 500px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
+  .hu-header .hu-logo img {
+    width: 170px;
+  }
+
   .hu-image {
     align-self: center;
+    margin-top: 20px;
   }
 
   .hu-image img {
-    width: 500px;
+    width: 400px;
   }
 
   .hu-introductory h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 25px;
     padding: 0;
+    margin-top: 10px;
   }
 
   .hu-introductory p {
-    font-size: 1.675rem;
-    margin-bottom: 50px;
+    font-size: 1.33rem;
   }
 }
 
