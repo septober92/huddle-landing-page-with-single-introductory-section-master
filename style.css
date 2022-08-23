@@ -28,7 +28,7 @@ html {
 
 main {
   min-height: 100vh;
-  padding: 40px 60px;
+  padding: 40px 80px;
   background: url(images/bg-desktop.svg) left no-repeat, var(--violet);
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@ a {
 }
 
 .hu-header {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 75px;
 }
 
@@ -206,6 +206,7 @@ a {
   .hu-introductory h1 {
     font-size: 2.6rem;
     padding: 0 33px;
+    margin-bottom: 25px;
   }
 
   .hu-introductory p {
